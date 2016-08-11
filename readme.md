@@ -1,4 +1,4 @@
-# vendors [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]
+# vendors [![Build Status][travis-badge]][travis]
 
 List of (real<sup>†</sup>) vendor prefixes known to the web platform.
 From [Wikipedia][wiki] and the [CSS 2.1 spec][spec].
@@ -49,10 +49,6 @@ Yields:
 [travis-badge]: https://img.shields.io/travis/wooorm/vendors.svg
 
 [travis]: https://travis-ci.org/wooorm/vendors
-
-[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/vendors.svg
-
-[codecov]: https://codecov.io/github/wooorm/vendors
 
 [npm]: https://docs.npmjs.com/cli/install
 
