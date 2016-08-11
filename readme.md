@@ -1,12 +1,10 @@
-# vendors [![Build Status][build-badge]][build-page] [![Coverage Status][coverage-badge]][coverage-page]
-
-<!--lint ignore no-html-->
+# vendors [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]
 
 List of (real<sup>†</sup>) vendor prefixes known to the web platform.
 From [Wikipedia][wiki] and the [CSS 2.1 spec][spec].
 
-† — real, as in, `mdo-` and `prince-` are not included because they are
-not [valid][spec].
+† — real, as in, `mso-` and `prince-` are not included because they are
+not valid.
 
 ## Installation
 
@@ -16,12 +14,7 @@ not [valid][spec].
 npm install vendors
 ```
 
-**vendors** is also available as an AMD, CommonJS, and globals module,
-[uncompressed and compressed][releases].
-
 ## Usage
-
-Dependencies:
 
 ```javascript
 var vendors = require('vendors');
@@ -47,29 +40,21 @@ Yields:
   'xv' ]
 ```
 
-## API
-
-### `vendors`
-
-`Array.<string>` — List of lower-case prefixes without dashes.
-
 ## License
 
 [MIT][license] © [Titus Wormer][author]
 
-<!-- Definition -->
+<!-- Definitions -->
 
-[build-badge]: https://img.shields.io/travis/wooorm/vendors.svg
+[travis-badge]: https://img.shields.io/travis/wooorm/vendors.svg
 
-[build-page]: https://travis-ci.org/wooorm/vendors
+[travis]: https://travis-ci.org/wooorm/vendors
 
-[coverage-badge]: https://img.shields.io/codecov/c/github/wooorm/vendors.svg
+[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/vendors.svg
 
-[coverage-page]: https://codecov.io/github/wooorm/vendors?branch=master
+[codecov]: https://codecov.io/github/wooorm/vendors
 
 [npm]: https://docs.npmjs.com/cli/install
-
-[releases]: https://github.com/wooorm/vendors/releases
 
 [license]: LICENSE
 
