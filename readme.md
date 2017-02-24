@@ -1,5 +1,7 @@
 # vendors [![Build Status][travis-badge]][travis]
 
+<!--lint disable no-html-->
+
 List of (real<sup>†</sup>) vendor prefixes known to the web platform.
 From [Wikipedia][wiki] and the [CSS 2.1 spec][spec].
 
