@@ -13,8 +13,7 @@
     "prefix",
     "prefixes"
   ],
-  "dependencies": {},
-  "repository": "https://github.com/wooorm/vendors",
+  "repository": "wooorm/vendors",
   "bugs": "https://github.com/wooorm/vendors/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
@@ -24,6 +23,7 @@
   "files": [
     "index.json"
   ],
+  "dependencies": {},
   "devDependencies": {
     "browserify": "^14.1.0",
     "esmangle": "^1.0.0",
@@ -44,7 +44,6 @@
   "xo": {
     "space": true,
     "esnext": false,
-    "rules": {},
     "ignores": [
       "vendors.js"
     ]
