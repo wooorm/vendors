@@ -1,7 +1,7 @@
 'use strict';
 
 var test = require('tape');
-var vendors = require('./');
+var vendors = require('.');
 
 test('vendors', function (t) {
   t.ok(Array.isArray(vendors), 'should be an `array`');
