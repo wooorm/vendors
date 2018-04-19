@@ -19,7 +19,9 @@ npm install vendors
 ## Usage
 
 ```javascript
-var vendors = require('vendors');
+var vendors = require('vendors')
+
+console.log(vendors)
 ```
 
 Yields:
