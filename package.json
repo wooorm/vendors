@@ -1,6 +1,6 @@
 {
   "name": "vendors",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "List of vendor prefixes known to the web platform",
   "license": "MIT",
   "keywords": [
