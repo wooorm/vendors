@@ -58,7 +58,7 @@ Yields:
 
 [license]: license
 
-[author]: http://wooorm.com
+[author]: https://wooorm.com
 
 [wiki]: https://en.wikipedia.org/wiki/CSS_filter#Prefix_filters
 
