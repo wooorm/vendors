@@ -1,4 +1,8 @@
-# vendors [![Build Status][travis-badge]][travis]
+# vendors
+
+[![Build][build-badge]][build]
+[![Downloads][downloads-badge]][downloads]
+[![Size][size-badge]][size]
 
 <!--lint disable no-html-->
 
@@ -50,9 +54,17 @@ Yields:
 
 <!-- Definitions -->
 
-[travis-badge]: https://img.shields.io/travis/wooorm/vendors.svg
+[build-badge]: https://img.shields.io/travis/wooorm/vendors.svg
 
-[travis]: https://travis-ci.org/wooorm/vendors
+[build]: https://travis-ci.org/wooorm/vendors
+
+[downloads-badge]: https://img.shields.io/npm/dm/vendors.svg
+
+[downloads]: https://www.npmjs.com/package/vendors
+
+[size-badge]: https://img.shields.io/bundlephobia/minzip/vendors.svg
+
+[size]: https://bundlephobia.com/result?p=vendors
 
 [npm]: https://docs.npmjs.com/cli/install
 
