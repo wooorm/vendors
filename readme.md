@@ -72,6 +72,6 @@ Yields:
 
 [author]: https://wooorm.com
 
-[wiki]: https://en.wikipedia.org/wiki/CSS_filter#Prefix_filters
+[wiki]: https://en.wikipedia.org/wiki/CSS_hack#Browser_prefixes
 
 [spec]: https://www.w3.org/TR/CSS21/syndata.html#vendor-keyword-history
