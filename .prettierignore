@@ -1,2 +1,4 @@
 vendors.js
 vendors.min.js
+*.json
+*.md
