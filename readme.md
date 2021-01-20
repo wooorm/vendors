@@ -54,9 +54,9 @@ Yields:
 
 <!-- Definitions -->
 
-[build-badge]: https://img.shields.io/travis/wooorm/vendors.svg
+[build-badge]: https://github.com/wooorm/vendors/workflows/main/badge.svg
 
-[build]: https://travis-ci.org/wooorm/vendors
+[build]: https://github.com/wooorm/vendors/actions
 
 [downloads-badge]: https://img.shields.io/npm/dm/vendors.svg
 
