@@ -1,7 +1,5 @@
-'use strict'
-
-var test = require('tape')
-var vendors = require('.')
+import test from 'tape'
+import {vendors} from './index.js'
 
 test('vendors', function (t) {
   var index = -1

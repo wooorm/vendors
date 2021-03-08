@@ -15,6 +15,9 @@ not valid.
 
 ## Install
 
+This package is ESM only: Node 12+ is needed to use it and it must be `import`ed
+instead of `require`d.
+
 [npm][]:
 
 ```sh
@@ -24,7 +27,7 @@ npm install vendors
 ## Use
 
 ```js
-var vendors = require('vendors')
+import {vendors} from 'vendors'
 
 console.log(vendors)
 ```
@@ -32,7 +35,8 @@ console.log(vendors)
 Yields:
 
 ```js
-[ 'ah',
+[
+  'ah',
   'apple',
   'atsc',
   'epub',
@@ -46,8 +50,18 @@ Yields:
   'tc',
   'wap',
   'webkit',
-  'xv' ]
+  'xv'
+]
 ```
+
+## API
+
+This package exports the following identifiers: `vendors`.
+There is no default export.
+
+### `vendors`
+
+List of vendor prefixes (`string[]`).
 
 ## License
 

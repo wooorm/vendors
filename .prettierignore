@@ -1,4 +1,2 @@
-vendors.js
-vendors.min.js
-*.json
+coverage/
 *.md
