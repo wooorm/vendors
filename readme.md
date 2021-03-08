@@ -1,6 +1,7 @@
 # vendors
 
 [![Build][build-badge]][build]
+[![Coverage][coverage-badge]][coverage]
 [![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
 
@@ -57,6 +58,10 @@ Yields:
 [build-badge]: https://github.com/wooorm/vendors/workflows/main/badge.svg
 
 [build]: https://github.com/wooorm/vendors/actions
+
+[coverage-badge]: https://img.shields.io/codecov/c/github/wooorm/vendors.svg
+
+[coverage]: https://codecov.io/github/wooorm/vendors
 
 [downloads-badge]: https://img.shields.io/npm/dm/vendors.svg
 
