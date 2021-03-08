@@ -1,3 +1,8 @@
+/**
+ * List of vendor prefixes
+ *
+ * @type {string[]}
+ */
 export var vendors = [
   'ah',
   'apple',
