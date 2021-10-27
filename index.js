@@ -3,7 +3,7 @@
  *
  * @type {string[]}
  */
-export var vendors = [
+export const vendors = [
   'ah',
   'apple',
   'atsc',
