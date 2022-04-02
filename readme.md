@@ -41,17 +41,17 @@ In Node.js (version 12.20+, 14.14+, or 16.0+), install with [npm][]:
 npm install vendors
 ```
 
-In Deno with [Skypack][]:
+In Deno with [`esm.sh`][esmsh]:
 
 ```js
-import {vendors} from 'https://cdn.skypack.dev/vendors@2?dts'
+import {vendors} from 'https://esm.sh/vendors@2'
 ```
 
-In browsers with [Skypack][]:
+In browsers with [`esm.sh`][esmsh]:
 
 ```html
 <script type="module">
-  import {vendors} from 'https://cdn.skypack.dev/vendors@2?min'
+  import {vendors} from 'https://esm.sh/vendors@2?bundle'
 </script>
 ```
 
@@ -137,7 +137,7 @@ See [How to Contribute to Open Source][contribute].
 
 [npm]: https://docs.npmjs.com/cli/install
 
-[skypack]: https://www.skypack.dev
+[esmsh]: https://esm.sh
 
 [license]: license
 
