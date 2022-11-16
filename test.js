@@ -1,18 +1,17 @@
-import test from 'tape'
+import assert from 'node:assert/strict'
+import test from 'node:test'
 import {vendors} from './index.js'
 
-test('vendors', function (t) {
+test('vendors', function () {
   let index = -1
 
-  t.ok(Array.isArray(vendors), 'should be an `array`')
+  assert.ok(Array.isArray(vendors), 'should be an `array`')
 
   while (++index < vendors.length) {
-    t.equal(
+    assert.equal(
       typeof vendors[index],
       'string',
       '`' + vendors[index] + '` should be a string'
     )
   }
-
-  t.end()
 })
